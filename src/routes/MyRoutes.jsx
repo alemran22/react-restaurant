@@ -5,6 +5,8 @@ import Blog from "../pages/Blog/blog";
 import Contact from "../pages/Contact/contact";
 import Error from "../pages/Error/error";
 import Reservation from "../pages/Reservation/reservation";
+import Menu from "../pages/Menu/menu";
+import Gallery from "../pages/Gallery/gallery";
 
 const routes = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const routes = createBrowserRouter([
   {
     path: "/reservation",
     element: <Reservation />,
+  },
+  {
+    path: "/menu",
+    element: <Menu />,
+  },
+  {
+    path: "/gallery",
+    element: <Gallery />,
   },
 ]);
 export default routes;
