@@ -1,17 +1,9 @@
-import TopHeader from "./TopHeader/topheader";
-import Navbar from "./Navbar/navbar";
-import Banner from "../Banner/banner";
-import Contact from "../Contact_section/contact";
-import Story from "../Story/story";
+import TopHeader from "./TopHeader/topHeader";
 
 const Header = () => {
   return (
     <div>
       <TopHeader />
-      <Navbar />
-      <Banner />
-      <Contact />
-      <Story />
     </div>
   );
 };

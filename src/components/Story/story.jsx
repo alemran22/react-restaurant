@@ -1,6 +1,8 @@
 import StoryImage from "../../assets/images/story-iamge.svg";
 import StorySig from "../../assets/images/story-signature.svg";
+import { storyList } from "../../constant/home_constant";
 const Story = () => {
+  console.log(storyList);
   return (
     <div className=" bg-[#FFF8F5] pt-16 pb-20">
       <div className="container mx-auto flex flex-row justify-between ">
