@@ -1,7 +1,11 @@
-// import TopHeader from "./TopHeader/topHeader";
+import TopHeader from "./TopHeader";
 
 const Header = () => {
-  return <div>{/* <TopHeader /> */}</div>;
+  return (
+    <div>
+      <TopHeader />
+    </div>
+  );
 };
 
 export default Header;
