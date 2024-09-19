@@ -3,8 +3,8 @@ import MenuBanner from "../../assets/images/menu-img/menu-banner.jpg";
 import MenuList from "./MenuList";
 import { menuItemData } from "../../constant/menu_constant";
 import { useEffect, useState } from "react";
-
 /* eslint-disable react/no-unescaped-entities */
+
 const Menu = () => {
   const [starters, setStarters] = useState([]);
   const [mainDishes, setMainDishes] = useState([]);

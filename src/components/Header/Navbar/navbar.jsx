@@ -1,4 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaTwitter,
+  FaPinterest,
+} from "react-icons/fa";
 
 const Navbar = () => {
   const navItem = [
@@ -27,10 +33,18 @@ const Navbar = () => {
         </div>
         {/* right nav */}
         <div className="flex flex-row items-center gap-5 text-white text-2xl">
-          <Link to={"#"}>instagram</Link>
-          <Link to={"#"}>facebook</Link>
-          <Link to={"#"}>twitter</Link>
-          <Link to={"#"}>pinterest</Link>
+          <Link to={"#"}>
+            <FaInstagram />
+          </Link>
+          <Link to={"#"}>
+            <FaFacebook />
+          </Link>
+          <Link to={"#"}>
+            <FaTwitter />
+          </Link>
+          <Link to={"#"}>
+            <FaPinterest />
+          </Link>
         </div>
       </div>
     </div>
