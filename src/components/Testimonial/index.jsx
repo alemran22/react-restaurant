@@ -1,6 +1,7 @@
 /* eslint-disable no-dupe-keys */
 import { testimonialSliderData } from "../../constant/home_constant";
 import TestimonialCard from "./TestimonialCard";
+import Banner from "../../assets/images/testimonial/testimonialBanner.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -20,7 +21,7 @@ const Testimonial = () => {
   };
   return (
     <div className="bg-[#292E36]">
-      <div className="container mx-auto  py-24">
+      <div className="container mx-auto py-24">
         {/* section heading */}
         <div className="text-white mb-7">
           <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block">
@@ -36,7 +37,7 @@ const Testimonial = () => {
         <div className="slider-container">
           <Slider {...settings}>
             {testimonialSliderData.map((item) => (
-              <div key={item.id} className="pl-10 -translate-x-10">
+              <div key={item.id} className="ml-10 -translate-x-10">
                 <TestimonialCard
                   img={item.img}
                   title={item.title}
@@ -47,6 +48,10 @@ const Testimonial = () => {
             ))}
           </Slider>
         </div>
+      </div>
+      {/* bannerImage */}
+      <div className="h-[600px] w-full">
+        <img src={Banner} alt="" className="h-full w-full" />
       </div>
     </div>
   );

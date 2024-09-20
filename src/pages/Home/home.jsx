@@ -5,6 +5,8 @@ import Story from "../../components/Story/story";
 import Menu from "../../components/MenuSection";
 import Contact from "../../components/Contact_section/contact";
 import Testimonial from "../../components/Testimonial";
+import SpecialOffer from "../../components/SpecialOffer";
+import PopularDishes from "../../components/PopularDishes";
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       <Story />
       <Menu />
       <Testimonial />
+      <SpecialOffer />
+      <PopularDishes />
     </div>
   );
 };
