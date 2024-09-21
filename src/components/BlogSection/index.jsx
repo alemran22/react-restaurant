@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import image1 from "../../assets/images/blog/Image.png";
+import image2 from "../../assets/images/blog/Photo.png";
 import OutlineButton from "../OutlineButton";
 const BlogSection = () => {
   return (
@@ -47,8 +48,8 @@ const BlogSection = () => {
         <div className="w-full">
           {/* card image */}
           <div className="w-full relative ">
-            <img src={image1} alt="" className="w-full opacity-65" />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-100">
+            <img src={image2} alt="" className="w-full " />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
               <OutlineButton title={"View More"} className="" />
             </div>
           </div>
