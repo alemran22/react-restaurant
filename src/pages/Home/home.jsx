@@ -7,6 +7,7 @@ import Contact from "../../components/Contact_section/contact";
 import Testimonial from "../../components/Testimonial";
 import SpecialOffer from "../../components/SpecialOffer";
 import PopularDishes from "../../components/PopularDishes";
+import Services from "../../components/Services";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Testimonial />
       <SpecialOffer />
       <PopularDishes />
+      <Services />
     </div>
   );
 };

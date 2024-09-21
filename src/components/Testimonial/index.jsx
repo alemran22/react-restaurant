@@ -34,7 +34,7 @@ const Testimonial = () => {
           </p>
         </div>
         {/* Slider Container */}
-        <div className="slider-container">
+        <div className="slider-container text-white">
           <Slider {...settings}>
             {testimonialSliderData.map((item) => (
               <div key={item.id} className="ml-10 -translate-x-10">

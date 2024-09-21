@@ -16,12 +16,12 @@ const SpecialOffer = () => {
         </p>
       </div>
       {/* offer image */}
-      <div className="flex flex-row justify-between gap-8 items-center">
-        <div className="">
-          <img src={Offer1} alt="" className="" />
+      <div className="flex flex-row gap-8 items-center w-full">
+        <div className="h-[400px] w-full">
+          <img src={Offer1} alt="" className="object-cover w-full" />
         </div>
-        <div className="">
-          <img src={Offer2} alt="" className="" />
+        <div className="h-[400px] w-full">
+          <img src={Offer2} alt="" className="object-cover w-full" />
         </div>
       </div>
     </div>
