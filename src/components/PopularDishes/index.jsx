@@ -3,6 +3,7 @@ import img1 from "../../assets/images/popular-dishes/Image.png";
 import img2 from "../../assets/images/popular-dishes/Image (1).png";
 import img3 from "../../assets/images/popular-dishes/Image (2).png";
 import img4 from "../../assets/images/popular-dishes/Image (3).png";
+import OutlineButton from "../OutlineButton";
 const PopularDishes = () => {
   return (
     <div className="mb-40">
@@ -84,6 +85,9 @@ const PopularDishes = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="mt-16">
+          <OutlineButton title={"See All Dishes"} />
         </div>
       </div>
     </div>
