@@ -10,6 +10,7 @@ import PopularDishes from "../../components/PopularDishes";
 import Services from "../../components/Services";
 import BlogSection from "../../components/BlogSection";
 import Reservation from "../../components/Reservation";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <Services />
       <BlogSection />
       <Reservation />
+      <Footer />
     </div>
   );
 };
