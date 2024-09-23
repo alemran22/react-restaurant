@@ -25,7 +25,7 @@ const BlogSection = () => {
             <img src={image1} alt="" className="w-full" />
           </div>
           {/* card details */}
-          <div className="border-4 border-t-0 border-[#555555] w-full py-11 px-10">
+          <div className="border border-t-0 border-[#555555] w-full py-11 px-10">
             <div className="flex flex-row gap-5">
               <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block">
                 Restaurants
@@ -54,7 +54,7 @@ const BlogSection = () => {
             </div>
           </div>
           {/* card details */}
-          <div className="border-4 border-t-0 border-[#555555] w-full py-11 px-10">
+          <div className="border border-t-0 border-[#555555] w-full py-11 px-10">
             <div className="flex flex-row gap-5">
               <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block">
                 Restaurants

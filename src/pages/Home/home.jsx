@@ -9,6 +9,7 @@ import SpecialOffer from "../../components/SpecialOffer";
 import PopularDishes from "../../components/PopularDishes";
 import Services from "../../components/Services";
 import BlogSection from "../../components/BlogSection";
+import Reservation from "../../components/Reservation";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <PopularDishes />
       <Services />
       <BlogSection />
+      <Reservation />
     </div>
   );
 };
