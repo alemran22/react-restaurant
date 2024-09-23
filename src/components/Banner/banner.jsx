@@ -1,32 +1,35 @@
 import { Link } from "react-router-dom";
-import BannerImage from "../../assets/images/BannerImage.svg";
-import BannerCircle from "../../assets/icons/banner-circle.svg";
+import BannerImage from "../../assets/images/Banner/banner.svg";
 const Banner = () => {
   return (
     <div className="pt-7 bg-[#292E36]">
-      <div className="container mx-auto flex flex-row text-white items-center gap-48">
+      <div className="container mx-auto flex flex-col-reverse md:flex-row text-white items-center md:gap-48 p-5 md:p-0">
         {/* left */}
-        <div className="w-full">
-          <h1 className="text-8xl font-bold">Welcome to Restaurantate</h1>
-          <p className="text-xl mt-8 mb-10">
+        <div className="w-full text-center md:text-start">
+          <h1 className=" text-2xl md:text-8xl font-bold">
+            Welcome to Restaurantate
+          </h1>
+          <p className="text-base  md:text-xl mt-8 mb-10">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
             ipsum perspiciatis cum at earum illo dolorem numquam cumque quaerat,
           </p>
 
-          <Link to={"/menu"} className="py-3">
-            <button className="py-5 px-14 border border-[#E1B168] inline text-[#DEDEDE] text-2xl">
+          <Link
+            to={"/menu"}
+            className="py-2 md:py-3 flex justify-center md:block"
+          >
+            <button className=" py-2 md:py-5 px-6 md:px-14 border border-[#E1B168] inline text-[#DEDEDE] text-xl md:text-2xl">
               View Menu
             </button>
           </Link>
         </div>
         {/* right */}
-        <div className="w-full relative">
-          <div className="absolute -right-40 -top-2">
-            <img src={BannerCircle} alt="" />
-          </div>
-          <div className="bg-[#40464F] p-7 rounded-t-full flex justify-center z-10 relative">
-            <img src={BannerImage} alt="" className="rounded-t-full" />
-          </div>
+        <div className="w-full flex justify-center items-center md:block ">
+          <img
+            src={BannerImage}
+            alt=""
+            className="bg-transparent md:translate-y-32 md:translate-x-36"
+          />
         </div>
       </div>
     </div>
