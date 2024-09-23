@@ -59,4 +59,13 @@ const testimonialSliderData = [
       "It is professional, considers everyone's time, can think about the  There are many variations of passages whole probls small niche, friendly.",
   },
 ];
-export { storyList, testimonialSliderData };
+const navItem = [
+  { id: 1, title: "Home", path: "/" },
+  { id: 2, title: "About", path: "/about" },
+  { id: 3, title: "Menu", path: "/menu" },
+  { id: 4, title: "Reservation", path: "/reservation" },
+  { id: 5, title: "Gallery", path: "/gallery" },
+  { id: 6, title: "Blog", path: "/blog" },
+  { id: 7, title: "Contact", path: "/contact" },
+];
+export { storyList, testimonialSliderData, navItem };

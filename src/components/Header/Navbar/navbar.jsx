@@ -5,19 +5,11 @@ import {
   FaTwitter,
   FaPinterest,
 } from "react-icons/fa";
+import { navItem } from "../../../constant/home_constant";
 
 const Navbar = () => {
-  const navItem = [
-    { id: 1, title: "Home", path: "/" },
-    { id: 2, title: "About", path: "/about" },
-    { id: 3, title: "Menu", path: "/menu" },
-    { id: 4, title: "Reservation", path: "/reservation" },
-    { id: 5, title: "Gallery", path: "/gallery" },
-    { id: 6, title: "Blog", path: "/blog" },
-    { id: 7, title: "Contact", path: "/contact" },
-  ];
   return (
-    <div className="bg-[#292E36] border-y border-slate-500">
+    <div className="bg-[#292E36] border-y border-slate-500 hidden md:block">
       <div className="flex flex-row justify-between container mx-auto">
         {/* left nav */}
         <div className=" flex flex-row gap-1">

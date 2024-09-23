@@ -15,6 +15,7 @@ const Footer = () => {
       <div className=" py-10  justify-between items-center text-white">
         {/* top section */}
         <div className="text-white flex flex-row justify-between w-full my-16 container mx-auto ">
+          {/* left */}
           <div className="w-full flex items-center ">
             {/* left link */}
             <Link to={"#"} className="underline text-[22px] font-medium">
@@ -45,8 +46,8 @@ const Footer = () => {
         <div className="flex flex-row justify-between items-center my-16 container mx-auto">
           {/* left */}
           <div className="">
-            <div className="flex flex-col gap-2 ">
-              <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block uppercase mb-8">
+            <div className="flex flex-col gap-2">
+              <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block uppercase mb-8 max-w-max">
                 Contact
               </h3>
               <p className="text-xl">
