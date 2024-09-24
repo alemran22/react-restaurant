@@ -4,7 +4,7 @@ import Button from "../WhiteButton";
 /* eslint-disable react/no-unescaped-entities */
 const Reservation = () => {
   return (
-    <div className={`bg-reservation-Bg bg-cover py-16 md:py-48`}>
+    <div className={`bg-reservation-Bg bg-auto py-16 md:py-48 w-full`}>
       <form
         action=""
         className="max-w-5xl w-full mx-auto bg-[#292E36]/95 text-white p-5 md:p-0 md:py-36 md:px-40"

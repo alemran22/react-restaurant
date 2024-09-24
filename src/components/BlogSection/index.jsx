@@ -36,7 +36,7 @@ const BlogSection = () => {
                 Feb 22, 2022
               </h4>
             </div>
-            <h2 className="font-bold text-2xl md:text-[40px] my-3">
+            <h2 className="font-bold text-2xl md:text-[40px] leading-tight my-4">
               The Most Popular Delicious Food Of Mediterranean Cuisine
             </h2>
             <p className="text-lg md:text-xl">
@@ -56,7 +56,7 @@ const BlogSection = () => {
             </div>
           </div>
           {/* card details */}
-          <div className="text-center border border-t-0 border-[#555555] w-full py-3 md:py-11 px-4 md:px-10">
+          <div className="text-center md:text-start border border-t-0 border-[#555555] w-full py-3 md:py-11 px-4 md:px-10">
             <div className="flex flex-row gap-5">
               <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block">
                 Restaurants
@@ -65,7 +65,7 @@ const BlogSection = () => {
                 Feb 22, 2022
               </h4>
             </div>
-            <h2 className="font-bold text-2xl md:text-[40px] my-3">
+            <h2 className="font-bold text-2xl md:text-[40px] my-4 leading-tight">
               Elegant Dessert: 10 Tips How to Make It at Home
             </h2>
             <p className="text-lg md:text-xl">

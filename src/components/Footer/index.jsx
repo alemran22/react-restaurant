@@ -11,12 +11,12 @@ import Button from "../WhiteButton";
 
 const Footer = () => {
   return (
-    <div className="bg-[#292E36] ">
-      <div className=" py-10  justify-between items-center text-white">
+    <div className="bg-[#292E36] p-5 md:p-0">
+      <div className="md:py-10 justify-between items-center text-white">
         {/* top section */}
-        <div className="text-white flex flex-row justify-between w-full my-16 container mx-auto ">
+        <div className="text-white text-center flex flex-col md:flex-row items-center justify-center md:justify-between w-full my-8 md:my-16 container mx-auto gap-8">
           {/* left */}
-          <div className="w-full flex items-center ">
+          <div className="w-full flex items-center justify-center md:justify-start">
             {/* left link */}
             <Link to={"#"} className="underline text-[22px] font-medium">
               Instagram Feed
@@ -27,7 +27,7 @@ const Footer = () => {
             <img src="/src/assets/images/Logo.svg" alt="" />
           </div>
           {/* right nav */}
-          <div className="w-full flex flex-row items-center justify-end gap-5 text-white text-2xl">
+          <div className="w-full flex flex-row justify-center md:justify-end items-center  gap-5 text-white text-2xl">
             <Link to={"#"}>
               <FaInstagram />
             </Link>
@@ -43,14 +43,14 @@ const Footer = () => {
           </div>
         </div>
         {/* middle section */}
-        <div className="flex flex-row justify-between items-center my-16 container mx-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center my-10 gap-6 md:gap-0 md:my-16 container mx-auto">
           {/* left */}
           <div className="">
-            <div className="flex flex-col gap-2">
-              <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block uppercase mb-8 max-w-max">
+            <div className="flex flex-col gap-2 md:items-start items-center">
+              <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block  uppercase mb-3 md:mb-8 max-w-max">
                 Contact
               </h3>
-              <p className="text-xl">
+              <p className="text-center md:text-start text-lg md:text-xl">
                 5 Rue Dalou, 75015 Paris <br />
                 <span className="text-[#E1B168]">Call -</span> +33 156 78 89 56
                 <br />
@@ -60,22 +60,24 @@ const Footer = () => {
           </div>
           {/* mid */}
           <div className="flex flex-col gap-8">
-            <p className="text-xl text-center">
+            <p className="text-lg md:text-xl text-center">
               Join our mailing list for updates, <br /> Get news & offers
               events.
             </p>
-            <div className="flex flex-row items-center">
-              <Input placeholder={"Email"} type={"email"} />
-              <Button title={"Subscribe"} />
+            <div className="w-full flex flex-col md:flex-row items-center gap-5 md:gap-0">
+              <Input placeholder={"Email"} type={"email"} className={"w-3/4"} />
+              <div className="">
+                <Button title={"Subscribe"} />
+              </div>
             </div>
           </div>
           {/* right */}
-          <div className="text-right">
-            <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block uppercase mb-8">
+          <div className="text-center md:text-right">
+            <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block uppercase my-3 md:mb-8">
               Working hours
             </h3>
             <div className="flex flex-col gap-2 ">
-              <p className="text-xl">
+              <p className="text-lg md:text-xl">
                 <span className="text-[#E1B168]">Mon – Fri:</span> 7.00am –
                 6.00pm <br />
                 <span className="text-[#E1B168]">Sat:</span> 7.00am – 6.00pm{" "}
@@ -85,15 +87,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="bg-[#575B62]" />
+        <hr className="bg-[#575B62] hidden md:block" />
         {/* bottom section/ copyright */}
-        <div className="flex flex-row justify-between items-center mt-8 container mx-auto">
-          <h4 className="text-xl">
-            &copy; Copyright - Restaurantate | Designed by
-            <span className="text-[#E1B168]">VictorFlow</span> Templates -
-            Powered by <span className="text-[#E1B168]">Webflow</span>
+        <div className="w-full flex flex-col md:flex-row justify-between items-center mt-8 container mx-auto">
+          <h4 className="text-base md:text-xl text-wrap">
+            &copy; Copyright - Restaurantate | <br className="md:hidden" />
+            Designed by
+            <span className="text-[#E1B168]"> VictorFlow</span>
+            <br className="md:hidden" /> Templates - Powered by
+            <span className="text-[#E1B168]"> Webflow</span>
           </h4>
-          <h5 className="text-xl">Styleguide / Licenses</h5>
+          <h5 className="text-base md:text-xl">Styleguide / Licenses</h5>
         </div>
       </div>
     </div>
