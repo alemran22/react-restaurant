@@ -77,8 +77,8 @@ const Testimonial = () => {
         </div>
       </div>
       {/* bannerImage */}
-      <div className="h-[600px] w-full">
-        <img src={Banner} alt="" className="h-full w-full" />
+      <div className="py-5 md:py-0 md:h-[600px] w-full">
+        <img src={Banner} alt="" className="h-auto md:h-full w-full" />
       </div>
     </div>
   );
