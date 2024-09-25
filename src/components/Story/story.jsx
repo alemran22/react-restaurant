@@ -5,14 +5,14 @@ import { storyList } from "../../constant/home_constant";
 const Story = () => {
   console.log(storyList);
   return (
-    <div className=" bg-[#FFF8F5] pt-16 pb-20">
+    <div className=" bg-[#FFF8F5] pt-16 pb-20 px-5 md:px-0">
       <div className="container mx-auto flex flex-col md:flex-row justify-between gap-5 md:gap-0">
         {/* left */}
         <div className="w-full ">
           <img src={StoryImage} alt="" className="md:border-r-4 md:pr-14" />
         </div>
         {/* right */}
-        <div className="w-full text-center">
+        <div className="w-full text-center md:text-start">
           <div className="pb-3">
             <h1 className="text-3xl font-bold py-2">The Story</h1>
             <p className="text-xl">

@@ -22,7 +22,7 @@ const PopularDishes = () => {
           </p>
         </div>
         {/* offer cards */}
-        <div className="flex flex-col md:flex-row gap-5 md:gap-7 justify-between w-full">
+        <div className="flex flex-col items-center md:flex-row gap-5 md:gap-7 justify-between w-full">
           {/* card 1 */}
           <div className="w-full md:w-[321px]">
             <div className="mb-4">
