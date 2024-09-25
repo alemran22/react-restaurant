@@ -5,7 +5,7 @@ const SpecialOffer = () => {
   return (
     <div className="container mx-auto my-5 md:my-24 p-5 md:p-0 flex flex-col items-center">
       {/* section heading */}
-      <div className="text-center w-full md:w-[702px]">
+      <div className="text-center md:py-6 w-full md:w-[702px]">
         <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block">
           OFFER
         </h3>

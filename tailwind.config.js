@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "reservation-Bg": "url('./public/reservation/Photo (1).jpg')",
+        "reservation-Bg": "url('./reservation/Photo (1).jpg')",
       },
     },
   },
