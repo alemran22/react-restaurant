@@ -2,7 +2,7 @@
 const MenuList = ({ heading, items }) => {
   return (
     <div className="mt-5 md:mt-12 mb-8 md:mb-0">
-      <h2 className="font-bold text-2xl md:text-[40px] my-5 text-center">
+      <h2 className="font-bold text-2xl md:text-[40px] my-5 text-center md:text-start">
         {heading}
       </h2>
       {items.map((item) => (

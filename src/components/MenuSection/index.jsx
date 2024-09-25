@@ -20,7 +20,7 @@ const Menu = () => {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row container mx-auto p-5 md:py-48 gap-6 md:gap-32">
+    <div className="flex flex-col md:flex-row container mx-auto p-5 md:py-36 gap-6 md:gap-32">
       {/*left side/ menu title */}
       <div className="md:w-4/12 w-full text-center md:text-start">
         <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block ">
