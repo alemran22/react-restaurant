@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
           {/* mid logo */}
           <div className="w-full flex items-center justify-center">
-            <img src="/src/assets/images/Logo.svg" alt="" />
+            <img src="/src/assets/images/Logo.svg" alt="" className="w-full" />
           </div>
           {/* right nav */}
           <div className="w-full flex flex-row justify-center md:justify-end items-center  gap-5 text-white text-2xl">
@@ -90,12 +90,16 @@ const Footer = () => {
         <hr className="bg-[#575B62] hidden md:block" />
         {/* bottom section/ copyright */}
         <div className="w-full flex flex-col md:flex-row justify-between items-center mt-8 container mx-auto">
-          <h4 className="text-base md:text-xl text-wrap">
-            &copy; Copyright - Restaurantate | <br className="md:hidden" />
-            Designed by
-            <span className="text-[#E1B168]"> VictorFlow</span>
-            <br className="md:hidden" /> Templates - Powered by
-            <span className="text-[#E1B168]"> Webflow</span>
+          <h4 className="text-base md:text-xl text-center md:flex ">
+            <p className="">&copy; Copyright - Restaurantate |</p>{" "}
+            <p className="">
+              Designed by
+              <span className="text-[#E1B168]"> VictorFlow</span>
+            </p>
+            <p className="">
+              Templates - Powered by
+              <span className="text-[#E1B168]"> Webflow</span>
+            </p>
           </h4>
           <h5 className="text-base md:text-xl">Styleguide / Licenses</h5>
         </div>
