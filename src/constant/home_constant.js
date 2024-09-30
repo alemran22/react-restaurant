@@ -4,7 +4,7 @@ import { RiFileList3Line } from "react-icons/ri";
 import sliderImg1 from "../assets/images/testimonial/Image.png";
 import sliderImg2 from "../assets/images/testimonial/Image (1).png";
 import sliderImg3 from "../assets/images/testimonial/Image (2).png";
-const storyList = [
+const contactList = [
   {
     id: "locate-us",
     icon: CiLocationOn,
@@ -68,4 +68,4 @@ const navItem = [
   { id: 6, title: "Blog", path: "/blog" },
   { id: 7, title: "Contact", path: "/contact" },
 ];
-export { storyList, testimonialSliderData, navItem };
+export { contactList, testimonialSliderData, navItem };

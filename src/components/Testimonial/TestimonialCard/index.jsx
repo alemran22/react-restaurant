@@ -11,7 +11,7 @@ const TestimonialCard = ({ img, title, city, description }) => {
           <h6 className="text-lg md:text-xl">{city}</h6>
         </div>
       </div>
-      <hr className="my-4" />
+      <hr className="my-4 " />
       <div className="text-base md:text-[25px] italic">{description}</div>
     </div>
   );

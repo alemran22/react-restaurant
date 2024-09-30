@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const StoryCard = ({ title, icon, description }) => {
+const ContactCard = ({ title, icon, description }) => {
   return (
     <div className="flex flex-col md:flex-row gap-4 items-center ">
       <div className="text-4xl text-white bg-black p-4 rounded-full ">
@@ -13,4 +13,4 @@ const StoryCard = ({ title, icon, description }) => {
   );
 };
 
-export default StoryCard;
+export default ContactCard;

@@ -61,10 +61,10 @@ const Testimonial = () => {
           </p>
         </div>
         {/* Slider Container */}
-        <div className="slider-container text-white">
+        <div className="slider-container text-white bg-[#101012]">
           <Slider {...settings}>
             {testimonialSliderData.map((item) => (
-              <div key={item.id} className=" ml-10 -translate-x-10">
+              <div key={item.id} className="">
                 <TestimonialCard
                   img={item.img}
                   title={item.title}

@@ -1,9 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import StoryImage from "../../assets/images/story-iamge.svg";
 import StorySig from "../../assets/images/story-signature.svg";
-import { storyList } from "../../constant/home_constant";
+
 const Story = () => {
-  console.log(storyList);
   return (
     <div className=" bg-[#FFF8F5] pt-16 pb-20 px-5 md:px-0">
       <div className="container mx-auto flex flex-col md:flex-row justify-between gap-5 md:gap-0">
