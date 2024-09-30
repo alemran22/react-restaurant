@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "reservation-Bg": "url('./reservation/Photo (1).jpg')",
+        "reservation-Bg": "url('https://i.ibb.co.com/1L1RM5D/Photo-1.png')",
+        "aboutUsService-Bg":
+          "url('https://i.ibb.co.com/c8phFrj/Background.png')",
       },
     },
   },

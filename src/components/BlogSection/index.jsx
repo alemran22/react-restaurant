@@ -24,7 +24,11 @@ const BlogSection = () => {
         <div className="w-full">
           {/* card image */}
           <div className="w-full">
-            <img src={image1} alt="" className="w-full" />
+            <img
+              src="https://i.ibb.co.com/SmQRSBG/Image-21.png"
+              alt=""
+              className="w-full"
+            />
           </div>
           {/* card details */}
           <div className="border border-t-0 border-[#555555] w-full py-3 text-center md:text-start md:py-11 px-4 md:px-10">
@@ -50,7 +54,11 @@ const BlogSection = () => {
         <div className="w-full">
           {/* card image */}
           <div className="w-full relative ">
-            <img src={image2} alt="" className="w-full " />
+            <img
+              src="https://i.ibb.co.com/GJn51wm/Photo.png"
+              alt=""
+              className="w-full "
+            />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               <OutlineButton title={"View More"} className="" />
             </div>

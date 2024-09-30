@@ -1,14 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
-import StoryImage from "../../assets/images/story-iamge.svg";
-import StorySig from "../../assets/images/story-signature.svg";
-
 const Story = () => {
   return (
     <div className=" bg-[#FFF8F5] pt-16 pb-20 px-5 md:px-0">
       <div className="container mx-auto flex flex-col md:flex-row justify-between gap-5 md:gap-0">
         {/* left */}
         <div className="w-full ">
-          <img src={StoryImage} alt="" className="md:border-r-4 md:pr-14" />
+          <img
+            src="https://i.ibb.co.com/9t7rRG1/Image-1.png"
+            alt=""
+            className="md:border-r-4 md:pr-14"
+          />
         </div>
         {/* right */}
         <div className="w-full text-center md:text-start">
@@ -36,7 +37,11 @@ const Story = () => {
           </div>
           <div className="flex flex-col items-center md:block">
             <h1 className="text-xl font-bold py-2">JOSEFINE</h1>
-            <img src={StorySig} alt="" className="py-3" />
+            <img
+              src="https://i.ibb.co.com/hgMXqfK/Josefine.png"
+              alt=""
+              className="py-3"
+            />
           </div>
         </div>
       </div>

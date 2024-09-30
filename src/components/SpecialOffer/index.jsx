@@ -20,10 +20,18 @@ const SpecialOffer = () => {
       {/* offer cards */}
       <div className="flex flex-col md:flex-row gap-5 md:gap-8 items-center w-full my-5 ">
         <div className=" w-full">
-          <img src={Offer1} alt="" className="object-cover w-full" />
+          <img
+            src="https://i.ibb.co.com/x5d1DGm/1.png"
+            alt=""
+            className="object-cover w-full"
+          />
         </div>
         <div className=" w-full">
-          <img src={Offer2} alt="" className="object-cover w-full" />
+          <img
+            src="https://i.ibb.co.com/nm4ckVW/2.png"
+            alt=""
+            className="object-cover w-full"
+          />
         </div>
       </div>
     </div>

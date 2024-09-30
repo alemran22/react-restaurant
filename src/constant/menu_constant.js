@@ -1,14 +1,3 @@
-import item1 from "../assets/images/menu-img/Photo.jpg";
-import item2 from "../assets/images/menu-img/Image (1).jpg";
-import item3 from "../assets/images/menu-img/Image (2).jpg";
-import item4 from "../assets/images/menu-img/Image (3).jpg";
-import item5 from "../assets/images/menu-img/img5.jpg";
-import item6 from "../assets/images/menu-img/img6.jpg";
-import item7 from "../assets/images/menu-img/img7.jpg";
-import item8 from "../assets/images/menu-img/img8.jpg";
-import item9 from "../assets/images/menu-img/img9.jpg";
-import item10 from "../assets/images/menu-img/Image (1).jpg";
-
 const menuItemData = [
   {
     id: 1,
@@ -16,7 +5,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 40,
     category: "Starters",
-    img: item1,
+    img: "https://i.ibb.co.com/jkSMzYh/Image-3.png",
   },
   {
     id: 2,
@@ -24,7 +13,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 20,
     category: "Starters",
-    img: item2,
+    img: "https://i.ibb.co.com/NNhDF5s/Image-4.png",
   },
   {
     id: 3,
@@ -32,7 +21,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 25,
     category: "Starters",
-    img: item3,
+    img: "https://i.ibb.co.com/N1ZxZ7c/Image-5.png",
   },
   {
     id: 4,
@@ -40,7 +29,7 @@ const menuItemData = [
     description: "Candied Jerusalem artichokes, truffle",
     price: 30,
     category: "Starters",
-    img: item4,
+    img: "https://i.ibb.co.com/KrPMgYk/Image-6.png",
   },
   {
     id: 5,
@@ -48,7 +37,7 @@ const menuItemData = [
     description: "GCandied Jerusalem artichokes, trufflee",
     price: 30,
     category: "Main Dish",
-    img: item5,
+    img: "https://i.ibb.co.com/thCS1Cj/Image-7.png",
   },
   {
     id: 6,
@@ -56,7 +45,7 @@ const menuItemData = [
     description: "GCandied Jerusalem artichokes, trufflee",
     price: 40,
     category: "Main Dish",
-    img: item6,
+    img: "https://i.ibb.co.com/MVTKvgf/Image-8.png",
   },
   {
     id: 7,
@@ -64,7 +53,7 @@ const menuItemData = [
     description: "GCandied Jerusalem artichokes, truffle",
     price: 40,
     category: "Main Dish",
-    img: item7,
+    img: "https://i.ibb.co.com/vvFCj3N/Image-9.png",
   },
   {
     id: 8,
@@ -72,7 +61,7 @@ const menuItemData = [
     description: "GCandied Jerusalem artichokes, truffle",
     price: 40,
     category: "Main Dish",
-    img: item8,
+    img: "https://i.ibb.co.com/F7dsX1k/Image-10.png",
   },
   {
     id: 9,
@@ -80,7 +69,7 @@ const menuItemData = [
     description: "GCandied Jerusalem artichokes, truffle",
     price: 40,
     category: "Dessert",
-    img: item9,
+    img: "https://i.ibb.co.com/D1LTbSk/Image-11.png",
   },
   {
     id: 10,
@@ -88,7 +77,7 @@ const menuItemData = [
     description: "GCandied Jerusalem artichokes, truffle",
     price: 40,
     category: "Dessert",
-    img: item10,
+    img: "https://i.ibb.co.com/Fbm7HFZ/Image-12.png",
   },
 ];
 

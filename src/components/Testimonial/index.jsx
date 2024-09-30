@@ -1,6 +1,6 @@
 import { testimonialSliderData } from "../../constant/home_constant";
 import TestimonialCard from "./TestimonialCard";
-import Banner from "../../assets/images/testimonial/testimonialBanner.png";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -12,7 +12,7 @@ const Testimonial = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     arrows: false,
-    autoplay: true,
+    // autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -61,10 +61,10 @@ const Testimonial = () => {
           </p>
         </div>
         {/* Slider Container */}
-        <div className="slider-container text-white bg-[#101012]">
+        <div className="slider-container text-white">
           <Slider {...settings}>
             {testimonialSliderData.map((item) => (
-              <div key={item.id} className="">
+              <div key={item.id} className="p-2 md:p-0">
                 <TestimonialCard
                   img={item.img}
                   title={item.title}
@@ -78,7 +78,11 @@ const Testimonial = () => {
       </div>
       {/* bannerImage */}
       <div className="py-5 md:py-0 md:h-[600px] w-full">
-        <img src={Banner} alt="" className="h-auto md:h-full w-full" />
+        <img
+          src="https://i.ibb.co.com/w06NBYd/Image-16.png"
+          alt=""
+          className="h-auto md:h-full w-full"
+        />
       </div>
     </div>
   );

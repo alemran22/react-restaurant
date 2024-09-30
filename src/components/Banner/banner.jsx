@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BannerImage from "../../assets/images/Banner/banner.svg";
+
 const Banner = () => {
   return (
     <div className="pt-7 bg-[#292E36]">
@@ -26,9 +26,9 @@ const Banner = () => {
         {/* right */}
         <div className="w-full flex justify-center items-center md:block ">
           <img
-            src={BannerImage}
+            src="https://i.ibb.co.com/bNgmvKc/Image.png"
             alt=""
-            className="bg-transparent md:translate-y-32 md:translate-x-36"
+            className="bg-transparent md:translate-y-[120px] md:translate-x-36"
           />
         </div>
       </div>

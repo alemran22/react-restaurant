@@ -24,21 +24,33 @@ const Services = () => {
           {/* card1 */}
           <div className="w-full md:w-[257px] h-[240px] text-white flex flex-col items-center gap-4 border-[22px] border-[#323841] py-[47px]">
             <div className="">
-              <img src={icon1} alt="" className="" />
+              <img
+                src="https://i.ibb.co.com/RDP6nrJ/Icon.png"
+                alt=""
+                className=""
+              />
             </div>
             <h4 className="font-bold text-2xl">Opened 24/7</h4>
           </div>
           {/* card 2 */}
           <div className="w-full md:w-[257px] h-[240px] text-white flex flex-col items-center gap-4 border-[22px] border-[#323841] py-[47px]">
             <div className="">
-              <img src={icon2} alt="" className="" />
+              <img
+                src="https://i.ibb.co.com/c6y4x1t/Icon-1.png"
+                alt=""
+                className=""
+              />
             </div>
             <h4 className="font-bold text-2xl">Special Menus</h4>
           </div>
           {/* card 3 */}
           <div className="w-full md:w-[257px] h-[240px] text-white flex flex-col items-center gap-4 border-[22px] border-[#323841] py-[47px]">
             <div className="">
-              <img src={icon3} alt="" className="" />
+              <img
+                src="https://i.ibb.co.com/CQMgvjD/Icon-2.png"
+                alt=""
+                className=""
+              />
             </div>
             <h4 className="font-bold text-2xl">Home Delivery</h4>
           </div>

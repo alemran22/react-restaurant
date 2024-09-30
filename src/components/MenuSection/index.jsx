@@ -1,5 +1,5 @@
 import OutlineButton from "../OutlineButton";
-import MenuBanner from "../../assets/images/menu-img/menu-banner.jpg";
+
 import MenuList from "./MenuList";
 import { menuItemData } from "../../constant/menu_constant";
 import { useEffect, useState } from "react";
@@ -30,7 +30,11 @@ const Menu = () => {
           Try Our Special Offers
         </h2>
         <div className="my-10 md:hidden">
-          <img src={MenuBanner} alt="" className="" />
+          <img
+            src="https://i.ibb.co.com/PNz0Ktj/Image-2.png"
+            alt=""
+            className=""
+          />
         </div>
         <p className="text-xl">
           Lorem Ipsum is that it has a more-or-less normal distribution of
@@ -38,7 +42,11 @@ const Menu = () => {
           like readable English.
         </p>
         <div className="my-10 hidden md:block">
-          <img src={MenuBanner} alt="" className="" />
+          <img
+            src="https://i.ibb.co.com/PNz0Ktj/Image-2.png"
+            alt=""
+            className=""
+          />
         </div>
         <div className="mt-8 md:mt-0">
           <OutlineButton title={"See All Dishes"} />

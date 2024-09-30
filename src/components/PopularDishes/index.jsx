@@ -26,7 +26,7 @@ const PopularDishes = () => {
           {/* card 1 */}
           <div className="w-full md:w-[321px]">
             <div className="mb-4">
-              <img src={img1} alt="" />
+              <img src="https://i.ibb.co.com/KhxTT6N/Image-17.png" alt="" />
             </div>
             <div className="">
               <div className="flex flex-row justify-between items-center">
@@ -44,7 +44,7 @@ const PopularDishes = () => {
           {/* card 2 */}
           <div className="w-full md:w-[321px]">
             <div className="mb-4">
-              <img src={img2} alt="" />
+              <img src="https://i.ibb.co.com/Hntxnn4/Image-18.png" alt="" />
             </div>
             <div className="">
               <div className="flex flex-row justify-between items-center">
@@ -62,7 +62,7 @@ const PopularDishes = () => {
           {/* card 3 */}
           <div className="w-full md:w-[321px]">
             <div className="mb-4">
-              <img src={img3} alt="" />
+              <img src="https://i.ibb.co.com/Yyymb5s/Image-19.png" alt="" />
             </div>
             <div className="">
               <div className="flex flex-row justify-between items-center">
@@ -80,7 +80,7 @@ const PopularDishes = () => {
           {/* card 4 */}
           <div className="w-full md:w-[321px]">
             <div className="mb-4">
-              <img src={img4} alt="" />
+              <img src="https://i.ibb.co.com/mJK6Wkm/Image-20.png" alt="" />
             </div>
             <div className="">
               <div className="flex flex-row justify-between items-center">

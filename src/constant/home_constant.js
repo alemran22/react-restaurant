@@ -1,9 +1,7 @@
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineSpeed } from "react-icons/md";
 import { RiFileList3Line } from "react-icons/ri";
-import sliderImg1 from "../assets/images/testimonial/Image.png";
-import sliderImg2 from "../assets/images/testimonial/Image (1).png";
-import sliderImg3 from "../assets/images/testimonial/Image (2).png";
+
 const contactList = [
   {
     id: "locate-us",
@@ -28,7 +26,7 @@ const contactList = [
 const testimonialSliderData = [
   {
     id: 1,
-    img: sliderImg1,
+    img: "https://i.ibb.co.com/k2nRZPQ/Image-13.png",
     title: "Daniyal Sppra",
     city: "Newyork",
     description:
@@ -36,7 +34,7 @@ const testimonialSliderData = [
   },
   {
     id: 2,
-    img: sliderImg2,
+    img: "https://i.ibb.co.com/PxQ3MYK/Image-14.png",
     title: "Natasha D",
     city: "Salt Lake City",
     description:
@@ -44,7 +42,7 @@ const testimonialSliderData = [
   },
   {
     id: 3,
-    img: sliderImg3,
+    img: "https://i.ibb.co.com/CWFyB7b/Image-15.png",
     title: "Jack Sparrow",
     city: "San Diego",
     description:
@@ -52,7 +50,7 @@ const testimonialSliderData = [
   },
   {
     id: 4,
-    img: sliderImg1,
+    img: "https://i.ibb.co.com/k2nRZPQ/Image-13.png",
     title: "Daniyal Sppra",
     city: "Newyork",
     description:
