@@ -1,8 +1,10 @@
+/* eslint-disable no-undef */
 import TestimonialCard from "./TestimonialCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { testimonialSliderData } from "../../../constant/home_constant";
+import { NextArrow, PrevArrow } from "../../../constant/customArrows";
 
 const Testimonial = () => {
   const settings = {
@@ -16,6 +18,8 @@ const Testimonial = () => {
     autoplaySpeed: 4000,
     cssEase: "linear",
     pauseOnHover: true,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -45,7 +49,7 @@ const Testimonial = () => {
     ],
   };
   return (
-    <div className="bg-[#292E36]">
+    <div className="bg-[#292E36] my-8 md:my-48">
       <div className=" mx-auto p-5 md:p-0 md:py-24 text-center">
         {/* section heading */}
         <div className="text-white ">
@@ -57,10 +61,19 @@ const Testimonial = () => {
           </h2>
         </div>
         {/* Slider Container */}
-        <div className="slider-container text-white">
+        <div className="slider-container text-white relative bg-black md:bg-transparent z-10">
+          {/* arrows */}
+          <div className="container absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 hidden md:flex justify-between items-center z-50">
+            <PrevArrow
+              className={"text-[#E1B168] text-5xl font-bold cursor-pointer"}
+            />
+            <NextArrow
+              className={"text-[#E1B168] text-5xl font-bold cursor-pointer"}
+            />
+          </div>
           <Slider {...settings}>
             {testimonialSliderData.map((item) => (
-              <div key={item.id} className="p-2 md:p-0">
+              <div key={item.id} className="s">
                 <TestimonialCard
                   img={item.img}
                   title={item.title}
@@ -71,14 +84,6 @@ const Testimonial = () => {
             ))}
           </Slider>
         </div>
-      </div>
-      {/* bannerImage */}
-      <div className="py-5 md:py-0 md:h-[600px] w-full">
-        <img
-          src="https://i.ibb.co.com/w06NBYd/Image-16.png"
-          alt=""
-          className="h-auto md:h-full w-full"
-        />
       </div>
     </div>
   );
