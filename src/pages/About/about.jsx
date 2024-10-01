@@ -1,4 +1,5 @@
 import Details from "../../components/aboutPageComponents/Details";
+import Gallery from "../../components/aboutPageComponents/Gallery";
 import Services from "../../components/aboutPageComponents/ServicesSection";
 import Team from "../../components/aboutPageComponents/TeamSection";
 import Testimonial from "../../components/aboutPageComponents/Testimonial";
@@ -18,6 +19,7 @@ const About = () => {
       <Services />
       <Team />
       <Testimonial />
+      <Gallery />
       <Reservation />
       <Footer />
     </div>
