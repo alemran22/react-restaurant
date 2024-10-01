@@ -1,3 +1,4 @@
+import Details from "../../components/aboutPageComponents/Details";
 import Services from "../../components/aboutPageComponents/ServicesSection";
 import Team from "../../components/aboutPageComponents/TeamSection";
 import Testimonial from "../../components/aboutPageComponents/Testimonial";
@@ -13,7 +14,7 @@ const About = () => {
       <Header />
       <Navbar />
       <PageTitle title={"About Us"} />
-
+      <Details />
       <Services />
       <Team />
       <Testimonial />

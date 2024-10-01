@@ -2,7 +2,7 @@
 import { FaStar } from "react-icons/fa6";
 import OutlineButton from "../../OutlineButton";
 
-const AboutUsSection = () => {
+const Details = () => {
   return (
     <div className="container mx-auto bg-white my-5 md:my-48 p-5 md:p-0">
       <div className=" flex flex-col md:flex-row justify-between gap-5 md:gap-0">
@@ -79,4 +79,4 @@ const AboutUsSection = () => {
   );
 };
 
-export default AboutUsSection;
+export default Details;
