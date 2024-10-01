@@ -1,4 +1,4 @@
-import AboutUs from "../../components/AboutPageComponents/AboutUsSection";
+import AboutUsSection from "../../components/AboutPageComponents/AboutUsSection";
 import Services from "../../components/aboutPageComponents/ServicesSection";
 import Team from "../../components/aboutPageComponents/TeamSection";
 import Testimonial from "../../components/aboutPageComponents/Testimonial";
@@ -14,7 +14,7 @@ const About = () => {
       <Header />
       <Navbar />
       <PageTitle title={"About Us"} />
-      <AboutUs />
+      <AboutUsSection />
       <Services />
       <Team />
       <Testimonial />

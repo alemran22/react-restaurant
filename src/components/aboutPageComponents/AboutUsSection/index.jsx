@@ -1,9 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
-
 import { FaStar } from "react-icons/fa6";
 import OutlineButton from "../../OutlineButton";
 
-const AboutUs = () => {
+const AboutUsSection = () => {
   return (
     <div className="container mx-auto bg-white my-5 md:my-48 p-5 md:p-0">
       <div className=" flex flex-col md:flex-row justify-between gap-5 md:gap-0">
@@ -80,4 +79,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutUsSection;
