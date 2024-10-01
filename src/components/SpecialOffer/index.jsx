@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Offer1 from "../../assets/images/special-offer/1.png";
-import Offer2 from "../../assets/images/special-offer/2.png";
+
 const SpecialOffer = () => {
   return (
     <div className="container mx-auto my-5 md:my-24 p-5 md:p-0 flex flex-col items-center">

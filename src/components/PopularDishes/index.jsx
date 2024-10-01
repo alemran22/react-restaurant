@@ -1,8 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import img1 from "../../assets/images/popular-dishes/Image.png";
-import img2 from "../../assets/images/popular-dishes/Image (1).png";
-import img3 from "../../assets/images/popular-dishes/Image (2).png";
-import img4 from "../../assets/images/popular-dishes/Image (3).png";
+
 import OutlineButton from "../OutlineButton";
 const PopularDishes = () => {
   return (

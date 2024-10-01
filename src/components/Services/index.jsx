@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import icon1 from "../../assets/icons/services-img/Icon.png";
-import icon2 from "../../assets/icons/services-img/Icon (1).png";
-import icon3 from "../../assets/icons/services-img/Icon (2).png";
+
 const Services = () => {
   return (
     <div className="bg-[#292E36] py-10 md:py-44 p-5 md:p-0">

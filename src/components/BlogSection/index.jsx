@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import image1 from "../../assets/images/blog/Image.png";
-import image2 from "../../assets/images/blog/Photo.png";
+
 import OutlineButton from "../OutlineButton";
 const BlogSection = () => {
   return (
