@@ -26,7 +26,7 @@ const DessertItems = () => {
             {/* starter dish component */}
             <MenuList heading={"Dessert"} items={desserts} />
             {/* button */}
-            <div className=" md:mt-16 text-center">
+            <div className="text-center md:text-right md:mt-16 ">
               <OutlineButton title={"See All Dishes"} />
             </div>
           </div>
