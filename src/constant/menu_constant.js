@@ -79,6 +79,22 @@ const menuItemData = [
     category: "Dessert",
     img: "https://i.ibb.co.com/Fbm7HFZ/Image-12.png",
   },
+  {
+    id: 11,
+    title: "Tender Octopus and Fennel",
+    description: "GCandied Jerusalem artichokes, truffle",
+    price: 40,
+    category: "Dessert",
+    img: "https://i.ibb.co.com/G9rXY0Y/Image-35.png",
+  },
+  {
+    id: 12,
+    title: "Sea Bass Cevich",
+    description: "GCandied Jerusalem artichokes, truffle",
+    price: 40,
+    category: "Dessert",
+    img: "https://i.ibb.co.com/W2m3nQg/Image-36.png",
+  },
 ];
 
 export { menuItemData };

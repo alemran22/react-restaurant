@@ -22,7 +22,6 @@ const Testimonial = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    fade: true,
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 4000,
