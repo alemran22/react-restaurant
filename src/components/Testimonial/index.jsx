@@ -81,7 +81,7 @@ const Testimonial = () => {
         <img
           src="https://i.ibb.co.com/w06NBYd/Image-16.png"
           alt=""
-          className="h-auto md:h-full w-full"
+          className="h-[200px] md:h-full w-full"
         />
       </div>
     </div>

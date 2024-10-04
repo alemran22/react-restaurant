@@ -17,7 +17,7 @@ const Gallery = () => {
           img={"https://i.ibb.co.com/Y80zgPr/Image-26.png"}
         />
         <Card
-          className={"col-span-12 md:col-span-6 row-span-12"}
+          className={"col-span-6 row-span-12"}
           img={"https://i.ibb.co.com/NYqRnYs/2-1.png"}
         />
         <Card
@@ -29,7 +29,7 @@ const Gallery = () => {
           img={"https://i.ibb.co.com/V32ZzpL/Image-28.png"}
         />
         <Card
-          className={"col-span-6 md:col-span-3 row-span-12 md:row-span-5"}
+          className={"col-span-12 md:col-span-3 row-span-6 md:row-span-5"}
           img={"https://i.ibb.co.com/mGDpYXx/Image-29.png"}
         />
       </div>

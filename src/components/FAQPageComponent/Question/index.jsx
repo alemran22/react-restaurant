@@ -3,13 +3,13 @@ const Question = ({ id, question, answer, handleShowAnswer, showAnswer }) => {
   return (
     <button
       onClick={() => handleShowAnswer(id)}
-      className="flex px-10 py-7 border border-[#C4C4C4] justify-between"
+      className="flex md:px-10 py-1 md:py-7 border border-[#C4C4C4] justify-between"
     >
       {/* left */}
       <div className="text-start">
-        <h3 className="text-2xl font-medium">{question} </h3>
+        <h3 className="md:text-2xl font-medium">{question} </h3>
         {showAnswer === id && (
-          <p className="text-lg md:text-xl mt-3">{answer}</p>
+          <p className="text-base md:text-xl mt-3">{answer}</p>
         )}
       </div>
       {/* right icon */}

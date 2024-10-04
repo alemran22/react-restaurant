@@ -8,7 +8,7 @@ const QuestionAnswerSection = () => {
     setShowAnswer(id);
   };
   return (
-    <div className="container mx-auto w-[927px] md:my-36">
+    <div className="container mx-auto w-full md:w-[927px] my-6 md:my-36 p-5">
       {/* section heading */}
       <div className="text-center md:my-14">
         <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block uppercase">
@@ -19,7 +19,7 @@ const QuestionAnswerSection = () => {
         </h2>
       </div>
       {/* questions */}
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-2 md:gap-4">
         {faqItemData.map((item) => (
           <Question
             key={item.id}
