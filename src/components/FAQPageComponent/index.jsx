@@ -5,6 +5,9 @@ import Question from "./Question";
 const QuestionAnswerSection = () => {
   const [showAnswer, setShowAnswer] = useState(null);
   const handleShowAnswer = (id) => {
+    if (showAnswer === id) {
+      return setShowAnswer(null);
+    }
     setShowAnswer(id);
   };
   return (

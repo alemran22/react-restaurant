@@ -7,7 +7,7 @@ const faqItemData = [
   },
   {
     id: 2,
-    question: "Can I add Extras to my delivery?",
+    question: "Can I add extras to my delivery?",
     answer:
       "Enthusiastically leveraged existing premium  quality vectors with enterprise-wides  innovation hose fluorescent leverage.",
   },
@@ -19,7 +19,7 @@ const faqItemData = [
   },
   {
     id: 4,
-    question: "What does First for an idea?",
+    question: "What does first for an idea?",
     answer:
       "Enthusiastically leveraged existing premium  quality vectors with enterprise-wides  innovation hose fluorescently leverage.",
   },
