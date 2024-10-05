@@ -8,6 +8,8 @@ import Reservation from "../pages/Reservation/reservation";
 import Menu from "../pages/Menu/menu";
 import Gallery from "../pages/Gallery/gallery";
 import FAQ from "../pages/FAQ";
+import ChangeLog from "../pages/ChangeLog";
+import Password from "../pages/Password";
 
 const routes = createBrowserRouter([
   {
@@ -42,6 +44,14 @@ const routes = createBrowserRouter([
   {
     path: "/faq",
     element: <FAQ />,
+  },
+  {
+    path: "/changelog",
+    element: <ChangeLog />,
+  },
+  {
+    path: "/password",
+    element: <Password />,
   },
 ]);
 export default routes;
