@@ -17,7 +17,11 @@ const Navbar = () => {
             <NavLink
               key={item.id}
               to={item.path}
-              className={"text-white text-xl px-8 py-5 hover:bg-[#E1B168]"}
+              className={({ isActive }) =>
+                isActive
+                  ? "text-white text-xl px-8 py-5 bg-[#E1B168] hover:bg-[#E1B168]"
+                  : "text-white text-xl px-8 py-5 hover:bg-[#E1B168]"
+              }
             >
               {item.title}
             </NavLink>
