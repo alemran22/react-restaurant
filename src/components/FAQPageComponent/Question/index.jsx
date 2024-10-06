@@ -5,15 +5,15 @@ const Question = ({ id, question, answer, handleShowAnswer, showAnswer }) => {
   return (
     <button
       onClick={() => handleShowAnswer(id)}
-      className=" md:px-10 py-1 md:py-7 border border-[#C4C4C4] justify-between"
+      className="px-2 md:px-10 py-1 md:py-7 border border-[#C4C4C4] justify-between"
     >
       <div className="text-start">
         <div className="flex justify-between items-center ">
           <h3 className="md:text-2xl font-medium">{question} </h3>
           {showAnswer === id ? (
-            <IoIosArrowUp className="text-2xl" />
+            <IoIosArrowUp className="text-xl md:text-2xl" />
           ) : (
-            <IoIosArrowDown className="text-2xl" />
+            <IoIosArrowDown className="text-xl md:text-2xl" />
           )}
         </div>
         {showAnswer === id && (

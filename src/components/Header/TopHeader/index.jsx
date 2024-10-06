@@ -86,7 +86,7 @@ const TopHeader = () => {
           </div>
           <Link
             to={"/reservation"}
-            className="bg-[#E1B168] py-5 px-14 text-xl font-medium "
+            className="bg-[#E1B168] py-3 md:py-5 px-10 md:px-14 text-xl font-medium "
           >
             Reservation
           </Link>

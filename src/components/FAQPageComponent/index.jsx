@@ -11,13 +11,13 @@ const QuestionAnswerSection = () => {
     setShowAnswer(id);
   };
   return (
-    <div className="container mx-auto w-full md:w-[927px] my-6 md:my-36 p-5">
+    <div className="container mx-auto w-full md:w-[927px] my-6 md:my-36 p-4">
       {/* section heading */}
       <div className="text-center md:my-14">
         <h3 className="font-medium text-lg py-1 border-[#E1B168] border-y-2 inline-block uppercase">
           Questions
         </h3>
-        <h2 className="font-bold text-2xl md:text-[40px] my-3">
+        <h2 className="font-bold text-2xl md:text-[40px] my-3 ">
           Frequently Asked Questions
         </h2>
       </div>
